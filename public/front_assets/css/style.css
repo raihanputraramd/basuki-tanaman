@@ -1,0 +1,992 @@
+/* Color declaration */
+:root {
+    --primary: #177165;
+    --secondary-one: #EFA920;
+    --secondary-two: ;
+    --black: #000000;
+    --white: #FFFFFF;
+    --grey: ;
+
+    --font-1: 'Poppins';
+    --font-2: ;
+}
+
+/* Font Declaration */
+.header1 {
+    font-size: 28px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header2 {
+    font-size: 24px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.header3 {
+    font-size: 20px;
+    line-height: normal;
+    font-family: var(--font-1);
+}
+
+.body1 {
+    font-size: 16px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+
+.body2 {
+    font-size: 12px;
+    line-height: normal;
+    font-family: var(--font-2);
+}
+/* End Font Declaration */
+
+
+/* text color declaration */
+.color-primary {
+    color: var(--primary);
+}
+
+.color-secondary-one {
+    color: var(--secondary-one);
+}
+
+.color-secondary-two {
+    color: var(--secondary-two);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-grey {
+    color: var(--grey);
+}
+/* End Text Color Declaration */
+
+
+
+/* Button Declaration */
+.button-layout {
+    background-color: var(--secondary-one);
+    border-radius: 24px;
+    color: var(--white);
+    font-family: var(--font-2);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 24px;
+    letter-spacing: normal;
+    text-transform: none;
+    transition: .2s ease;
+    line-height: normal;
+}
+
+.button-layout:hover,
+.button-layout.footer-button:hover {
+    filter: brightness(.90);
+}
+/* End Button Declaration */
+
+/* Utils */
+
+/* End Utils */
+
+
+/* Navbar */
+.navbar-scrolled {
+    background-color: var(--primary) !important;
+}
+.navbar {
+    height: 60px;
+    background-color: var(--primary);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.nav-link{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: rgb(210, 210, 210);
+}
+.nav-btn {
+    background: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    width: 131px;
+    height: 34px;
+}
+/* Header */
+.header-bg {
+    background: var(--primary) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header {
+    background: var(--primary) no-repeat center center;
+    height: 564px;
+}
+.header-title1 {
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+.header-title2 {
+    font-family: var(--font-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+.header-btn {
+    background: var(--secondary-one);
+    padding: 15px;
+    border-radius: 20px;
+    width: 146px;
+    height: 54px;
+    border: none;
+}
+/* Keunggulan Perusahaan - keper */
+#keunggulanPerusahaan {
+    margin-top: 34px;
+}
+.keper-bungkusan {
+
+    box-shadow: 0px 6px 40px rgba(0, 0, 0, 0.3);
+}
+.keper-bungkusan .card {
+    width: 348px;
+    height: 224px;
+    box-shadow: none;
+    border-radius: 0;
+}
+.keper-card-title1 {
+    color: var(--primary);
+}
+.keper-item {
+    background: var(--primary);
+}
+.keper-item1 {
+    background-color: #FFFFFF;
+}
+.keper-judul {
+    
+font-weight: 700;
+}
+/* End Keunggulan Perusahaan - keper */
+
+
+/* Keunggulan Produk - kepro */
+#keunggulanProduk {
+    margin-top: 48px;
+}
+.kepro-bungkusan .card {
+    width: 300px;
+    height: 400px;
+}
+.kepro-item1 {
+    background-image: url(../img/img-kepro1.png);
+}
+.kepro-item2 {
+    background-image: url(../img/img-kepro2.png);
+}
+.kepro-item3 {
+    background-image: url(../img/img-kepro3.png); 
+}
+.kepro-judul {
+    
+    font-weight: 700;
+}
+/* End Keunggulan Produk - kepro */
+
+
+/* Gambar Proses - gapro */
+#gambarProses {
+    margin-top: 34px;
+}
+.col-lg-3 {
+    width: 212px;
+    height: 200px;
+
+    margin-bottom: 5%;
+}
+.gapro-judul{
+    
+    font-weight: 700;
+}
+/* End Gambar Proses - gapro */
+
+
+/* Tentang Kami - teka */
+#tentangKami {
+    margin-top: 45px;
+    background-color: var(--primary);
+    height: 500px;
+}
+.teka-card-title {
+    font-weight: 700;
+    margin-top: 70px;
+}
+.teka-card-text {
+    text-align: justify;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.teka-btn {
+    background-color: var(--secondary-one);
+    color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    width: 256px;
+    height: 54px;
+    font-weight: 600;
+    margin-top: 105px;
+    margin-left: 240px;
+}
+.teka-img1 {
+    margin-top: 10px;
+}
+.teka-img2 {
+    margin-top: 31px;
+}
+/* End Tentang Kami - teka */
+
+
+/* Kenapa Harus Beli Kepada Kami - keha */
+#kenapaHarusBeliKepadaKami {
+    margin-top: 0;
+    background-color: var(--primary);
+    height: 500px;
+}
+.keha-judul {
+    width: 202px;
+    height: 73px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 273px;
+}
+.keha-card-title {
+    width: 196px;
+    height: 31px;
+}
+.keha-img1 {
+    margin-top: 31px;
+}
+.keha-img2 {
+    margin-top: 10px;
+}
+.keha-icontext1 {
+    width: 333px;
+    height: 150px;
+    margin-top: 30px;
+    padding-left: 0;
+}
+.keha-icontext2 {
+    width: 333px;
+    height: 150px;
+    margin-left: 150px;
+    padding-right: 0;
+}
+/* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+/* Testimoni - testimoni */
+#testimoni {
+    margin-top: 34px;
+    height: 400px;
+}
+
+.testimoni-bungkusan {
+    width: 800px;
+    height: 500px;
+}
+.testimoni-card {
+    width: 370px;
+    height: 500px;
+    margin-top: 36px;
+    color: var(--white);
+    padding-top: 106px;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.testimoni-judul {  
+    font-weight: 700;
+}
+/* .testimoni-personal{
+} */
+/* End Testimoni - testimoni */
+
+
+/* Daftar Produk - dapro */
+#daftarProduk {
+    margin-top: 34px;
+    height: 384px;
+}
+.dapro-img {
+    width: 274px;
+    height: 354px; 
+    background-color: var(--primary);
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.dapro-bungkusan{
+    height: 384px;
+}
+.dapro-img-text{
+    margin-top: 24px;
+}
+.dapro-card-judul1 {
+    color: var(--secondary-one);
+    font-weight: bold;
+    margin-left: 58px;
+}
+.dapro-card-judul {
+    margin-top: 68px;
+    margin-left: 58px;
+    font-weight: bold;
+}
+.dapro-card-desc {
+    margin-left: 58px;
+    width: 335px;
+}
+.dapro-card-title1 {
+    color: var(--secondary-one);
+}
+.dapro-btn {
+    background-color: var(--secondary-one);
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 56px;
+    font-weight: 600;
+    margin-left: 58px;
+}
+/* End Daftar Produk - dapro */
+
+
+/* Footer */
+#layoutDefault_footer {
+    margin-top: 34px;
+    height: 330px;
+    background-color: var(--primary);
+}
+
+.footer-button {
+    font-size: 3.0519rem;
+    font-family: var(--font-1);
+    font-weight: 400;
+}
+.footer-btn {
+    background-color: var(--secondary-one);
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 12px;
+    width: 197px;
+    height: 56px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.footer-text1 {
+    font-weight: bold;
+}
+@media only screen and (max-width: 767.98px) {
+
+
+    /* Font Declaration */
+    .header1 {
+        font-size: 26px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header2 {
+        font-size: 22px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .header3 {
+        font-size: 18px;
+        line-height: normal;
+        font-family: var(--font-1);
+    }
+
+    .body1 {
+        font-size: 14px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+
+    .body2 {
+        font-size: 10px;
+        line-height: normal;
+        font-family: var(--font-2);
+    }
+    /* End Font Declaration */
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+    #header {
+        height: 320px;
+    }
+    .header-bg {
+        height: auto;
+    }
+    .header-title1 {
+        font-family: var(--font-1);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px!important;
+        line-height: 60px;
+        width: 190px;
+    }
+    .header-title2 {
+       display: none;
+    
+    }
+    .header-btn {
+        background: var(--secondary-one);
+        padding: 15px;
+        border-radius: 20px;
+        width: 146px;
+        height: 54px;
+        border: none;
+    }
+    .header-content-img img {
+        width: 140px;
+        height: 180px;
+    }
+    
+    /* Keunggulan Perusahaan - keper */
+    .keper-bungkusan .card {
+       
+            width: 382px;
+            height: 224px;
+    }
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+    .kepro-bungkusan .card {
+        width: 382px;
+    }
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+    .col-lg-3 {
+        width: 180px;
+        height: 200px;
+    
+        margin-bottom: 5%;
+    }
+    .col-lg-3 img {
+        width: 200px;
+        height: 200px;
+    }
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+    #tentangKami {
+        height: 300px;
+    }
+    .teka-card-title {
+        font-weight: 700;
+        margin-top: 70px;
+        font-size: 12px;
+    }
+    .teka-card-text {
+        text-align: justify;
+        font-weight: 400;
+        line-height: 20px!important;
+        font-size: 10px;
+        width: 200px;
+        
+    }
+    .teka-btn {
+        background-color: var(--secondary-one);
+        color: #FFFFFF;
+        padding: 15px;
+        font-size: 12px;
+        border: none;
+        border-radius: 20px;
+        width: 200px!important;
+        height: 54px;
+        font-weight: 600;
+        margin-top: 2px!important;
+        margin-left: 0!important;
+    }
+    .teka-img1 {
+        display: none;
+    }
+    .teka-img2  img{
+        margin-top: 31px;
+        width: 100px;
+        height: 229px;
+    }
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+    #kenapaHarusBeliKepadaKami {
+        height: 425px;
+    }
+    .keha-judul {
+        width: 202px;
+        height: 73px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 12px!important;
+        line-height: 36px;
+        margin-left: 100px!important;
+    }
+    .keha-card-title {
+        width: 196px;
+        height: 31px;
+        font-size: 10px;
+    }
+    
+    .keha-img1, .keha-img2 {
+        display: none;
+    }
+    .keha-icontext1 {
+        width: 80px;
+        height: 150px;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .keha-icontext2 {
+        width: 80px;
+        height: 150px;
+        margin-left: 150px;
+        padding-right: 0;
+    }
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+    #testimoni {
+        margin-top: 34px;
+        height: 300px!important;
+    }
+    
+    .testimoni-bungkusan {
+        width: 400px!important;
+        height: 200px!important;
+    }
+    .testimoni-card {
+        width: 200px;
+        height: 200px!important;
+        margin-top: 36px;
+        padding-top: 106px;
+        background: #FFFFFF;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    .testimoni-judul {  
+        font-weight: 700;
+        font-size: 14px;
+    }
+    #carousel {
+        width: 600px;
+    }
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+    #daftarProduk {
+        margin-top: 34px;
+        height: 300px!important;
+    }
+    .dapro-img {
+        width: 100px!important;
+        height: 240px!important; 
+        background-color: var(--primary);
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+    .dapro-bungkusan{
+        height: 384px;
+    }
+    .dapro-img-text{
+        margin-top: 24px;
+    }
+    .dapro-img-text img {
+        width: 60px!important;
+        height: 80px!important;
+    }
+    .dapro-card-judul1 {
+        color: var(--secondary-one);
+        font-weight: bold;
+        margin-left: 0!important;
+    }
+    .dapro-card-judul {
+        margin-top: 68px;
+        margin-left: 0!important;
+        font-weight: bold;
+    }
+    .dapro-card-desc {
+      display: none;
+    }
+    .dapro-card-title1 {
+        color: var(--secondary-one);
+    }
+    .dapro-btn {
+        background-color: var(--secondary-one);
+        font-size: 10px;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 12px;
+        width: 120px;
+        height: 40px;
+        font-weight: 600;
+        margin-left: 0!important;
+    }
+
+    /* End Daftar Produk - dapro */
+
+    /* Footer */
+    .button-layout.footer-button {
+        font-size: 2.027rem !important;
+    }
+    #layoutDefault_footer {
+        margin-top: 34px;
+        height: 330px;
+        background-color: var(--primary);
+    }
+    .logo-footer  {
+        width: 100px!important;
+        height: 20px!important;
+    }
+    .sosmed {
+        width: 20px;
+        height: 20px;
+    }
+    small {
+        font-size: 10px;
+    }
+    .footer-btn {
+        background-color: var(--secondary-one);
+        color: #FFFFFF;
+        padding: 16px 16px!important;
+        border: none;
+        border-radius: 12px;
+        width: 160px;
+        height: 56px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    .footer-text1, .footer-text {
+        font-size: 10px;
+    }
+    .footer-bgn2 {
+        padding-top: 50px!important;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    #layoutDefault,
+    #layoutDefault_footer {
+        overflow-x: hidden;
+    }
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+    .navbar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .navbar {
+        background-color: var(--primary);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    }
+
+    /* Header */
+    .header-bg {
+        height: auto;
+    }
+    .header-title1 {
+        font-family: var(--font-1);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .header-title2 {
+        font-family: var(--font-1);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+    
+    }
+    .header-btn {
+        background: var(--secondary-one);
+        padding: 15px;
+        border-radius: 20px;
+        width: 146px;
+        height: 54px;
+        border: none;
+    }
+    
+    /* Keunggulan Perusahaan - keper */
+    
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+    .teka-card-title {
+        font-weight: 700;
+        margin-top: 70px;
+    }
+    .teka-card-text {
+        text-align: justify;
+        font-weight: 400;
+        line-height: 30px;
+        
+    }
+    .teka-btn {
+        background-color: var(--secondary-one);
+        color: #FFFFFF;
+        padding: 15px;
+        border: none;
+        border-radius: 20px;
+        width: 256px;
+        height: 54px;
+        font-weight: 600;
+        margin-top: 2px!important;
+        margin-left: 0!important;
+    }
+    .teka-img1 {
+        margin-top: 10px;
+        width: 60px;
+        height: 229px;
+    }
+    .teka-img2 {
+        margin-top: 31px;
+        width: 100px;
+        height: 229px;
+    }
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+    .keha-judul {
+        width: 202px;
+        height: 73px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 273px;
+    }
+    .keha-card-title {
+        width: 196px;
+        height: 31px;
+    }
+    
+    .keha-img1, .keha-img2 {
+        display: none;
+    }
+    .keha-icontext1 {
+        width: 80px;
+        height: 150px;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .keha-icontext2 {
+        width: 80px;
+        height: 150px;
+        margin-left: 150px;
+        padding-right: 0;
+    }
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+    #testimoni {
+        margin-top: 34px;
+        height: 400px;
+    }
+    
+    .testimoni-bungkusan {
+        width: 400px;
+        height: 500px;
+    }
+    .testimoni-card {
+        width: 370px;
+        height: 400px;
+        margin-top: 36px;
+        padding-top: 106px;
+        background: #FFFFFF;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    .testimoni-judul {  
+        font-weight: 700;
+    }
+    #carousel {
+        width: 600px;
+    }
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+    #daftarProduk {
+        margin-top: 34px;
+        height: 384px;
+    }
+    .dapro-img {
+        width: 130px;
+        height: 280px; 
+        background-color: var(--primary);
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+    .dapro-bungkusan{
+        height: 384px;
+    }
+    .dapro-img-text{
+        margin-top: 24px;
+    }
+    .dapro-img-text img {
+        width: 80px;
+        height: 100px;
+    }
+    .dapro-card-judul1 {
+        color: var(--secondary-one);
+        font-weight: bold;
+        margin-left: 58px;
+    }
+    .dapro-card-judul {
+        margin-top: 68px;
+        margin-left: 58px;
+        font-weight: bold;
+    }
+    .dapro-card-desc {
+      display: none;
+    }
+    .dapro-card-title1 {
+        color: var(--secondary-one);
+    }
+    .dapro-btn {
+        background-color: var(--secondary-one);
+        font-size: 10px;
+        color: #FFFFFF;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 12px;
+        width: 120px;
+        height: 40px;
+        font-weight: 600;
+        margin-left: 58px;
+    }
+    /* End Daftar Produk - dapro */
+
+
+    /* Footer */
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Button Declaration */
+
+
+    /* Utils */
+
+
+    /* Navbar */
+
+
+    /* Header */
+
+
+    
+    /* Keunggulan Perusahaan - keper */
+
+    /* End Keunggulan Perusahaan - keper */
+
+
+    /* Keunggulan Produk - kepro */
+
+    /* End Keunggulan Produk - kepro */
+
+
+    /* Gambar Proses - gapro */
+
+    /* End Gambar Proses - gapro */
+
+
+    /* Tentang Kami - teka */
+
+    /* End Tentang Kami - teka */
+
+
+    /* Kenapa Harus Beli Kepada Kami - keha */
+
+    /* End Kenapa Harus Beli Kepada Kami - keha */
+
+
+    /* Testimoni - testimoni */
+
+    /* End Testimoni - testimoni */
+
+
+    /* Daftar Produk - dapro */
+
+    /* End Daftar Produk - dapro */
+
+    
+    /* Footer */
+
+}
